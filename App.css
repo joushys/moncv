@@ -1,0 +1,57 @@
+body {
+  background-color: #a1d0f8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.cv-container {
+  width: 800px; 
+  background-color: rgb(246, 232, 185);
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  border: 3px solid white;
+}
+.phone-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.phone-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.phone-container button:hover {
+  background-color: #0056b3;
+}
+
+.phone-number {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
